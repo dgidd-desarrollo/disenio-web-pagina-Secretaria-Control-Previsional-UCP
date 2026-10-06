@@ -70,22 +70,38 @@ body {
 
 .navbar-brand {
   display: flex;
-  flex-direction: column;
-  line-height: 1.2;
-  max-width: min(100%, 320px);
+  align-items: center;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  max-width: min(100%, 22rem);
 }
 
-.brand-gobierno {
-  font-size: 0.95rem;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  color: #fff;
+.brand-logo {
+  display: block;
+  width: auto;
+  height: clamp(2.25rem, 5vw, 3.25rem);
+  max-width: 100%;
+  object-fit: contain;
+  object-position: left center;
 }
 
-.brand-organismo {
-  font-size: 0.8rem;
-  color: var(--nav-text-soft);
-  font-weight: 500;
+.footer-brand-logo-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  line-height: 0;
+}
+
+.footer-brand-logo-link:hover {
+  opacity: 0.92;
+}
+
+.footer-brand-logo {
+  display: block;
+  width: auto;
+  height: clamp(2.75rem, 6vw, 3.75rem);
+  max-width: min(100%, 20rem);
+  object-fit: contain;
+  object-position: left center;
 }
 
 #navbarPrincipal .navbar-toggler {
@@ -618,23 +634,6 @@ body {
   right: 0;
   height: 3px;
   background: linear-gradient(90deg, var(--color-accent), var(--color-accent-light), var(--color-accent));
-}
-
-.footer-brand-gobierno {
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  opacity: 0.85;
-  margin-bottom: 0.35rem;
-}
-
-.footer-brand-organismo {
-  font-size: 1.15rem;
-  font-weight: 800;
-  line-height: 1.3;
-  margin-bottom: 0.75rem;
-  letter-spacing: -0.02em;
 }
 
 .footer-brand-text {
