@@ -1,0 +1,28 @@
+﻿{
+    "documents":  [
+                      {
+                          "file":  "CARTA PODER.pdf",
+                          "title":  "CARTA PODER"
+                      },
+                      {
+                          "file":  "FORMULARIO JUBILACION LEY 9714.pdf",
+                          "title":  "FORMULARIO JUBILACION LEY 9714"
+                      },
+                      {
+                          "file":  "FORMULARIO PENSION (No Transferidos).pdf",
+                          "title":  "FORMULARIO PENSION (No Transferidos)"
+                      },
+                      {
+                          "file":  "FORMULARIO PENSION 9714.pdf",
+                          "title":  "FORMULARIO PENSION 9714"
+                      },
+                      {
+                          "file":  "FORMULARIO PENSION MALVINAS.pdf",
+                          "title":  "FORMULARIO PENSION MALVINAS"
+                      },
+                      {
+                          "file":  "FORMULARIO RENTA MALVINAS INICIO.pdf",
+                          "title":  "FORMULARIO RENTA MALVINAS INICIO"
+                      }
+                  ]
+}
